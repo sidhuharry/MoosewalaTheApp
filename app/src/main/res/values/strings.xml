@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">Moosewala The App</string>
+  <string name="quiz_img_desc">Quiz</string>
+  <string name="result_img_desc">Your Result</string>
+  <string name="result_str_1">You are Moosewala\'s</string>
+  <string name="txt_jigri_yar">Jigri Yaar Hathiyaar</string>
 </resources>
