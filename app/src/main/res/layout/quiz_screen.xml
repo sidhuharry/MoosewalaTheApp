@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:theme="@android:style/Theme.Holo.Light"
+  tools:context=".QuizScreen">
+
+
+  <TextView
+    android:id="@+id/quiz"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="160dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center"
+    android:text="@string/quiz_q_txt"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+  <RadioGroup
+    android:id="@+id/radioGroup2"
+    android:layout_width="416dp"
+    android:layout_height="189dp"
+    android:layout_marginTop="30dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/quiz">
+    <RadioButton
+      android:id="@+id/radioButton2"
+      style="@android:style/Widget.CompoundButton.RadioButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10sp"
+      android:text="@string/placeholder_radio_button_1"
+      android:textSize="18sp" />
+    <RadioButton
+      android:id="@+id/radioButton3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10sp"
+      android:text="@string/placeholder_radio_button_2"
+      android:textSize="18sp" />
+    <RadioButton
+      android:id="@+id/radioButton4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10sp"
+      android:text="@string/placeholder_radio_button_3"
+      android:textSize="18sp" />
+    <RadioButton
+      android:id="@+id/radioButton5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/placeholder_radio_button_4"
+      android:textSize="18sp" />
+  </RadioGroup>
+  <Button
+    android:id="@+id/button"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/next"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
