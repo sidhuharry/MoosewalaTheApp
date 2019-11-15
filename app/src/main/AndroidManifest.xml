@@ -11,7 +11,7 @@
     android:supportsRtl="true"
     android:theme="@style/AppTheme"
     tools:ignore="GoogleAppIndexingWarning">
-    <activity android:name=".QuizScreen"></activity>
+    <activity android:name=".QuizScreen" />
     <activity android:name=".Result" />
     <activity android:name=".ImageQuizScreen" />
     <activity android:name=".MainActivity">

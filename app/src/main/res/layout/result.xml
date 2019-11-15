@@ -38,7 +38,7 @@
     android:id="@+id/textView2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/txt_jigri_yar"
+    android:text="@string/txt_top_most"
     android:textColor="#0021C4"
     android:textSize="40sp"
     android:textStyle="bold|italic"

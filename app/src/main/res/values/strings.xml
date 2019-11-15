@@ -2,12 +2,13 @@
   <string name="app_name">Moosewala The App</string>
   <string name="quiz_img_desc">Quiz</string>
   <string name="result_img_desc">Your Result</string>
-  <string name="result_str_1">You are Moosewala\'s</string>
-  <string name="txt_jigri_yar">Jigri Yaar Hathiyaar</string>
+  <string name="result_str_1">You are </string>
+  <string name="txt_top_most">a member of Bandook Group</string>
+  <string name="txt_top_most_minus_1">a member of Bandook Group</string>
   <string name="quiz_q_txt">You just saw a screenshot. From which Sidhu Moosewala\'s song was it taken?</string>
   <string name="placeholder_radio_button_1">Placeholder radio button 1</string>
   <string name="placeholder_radio_button_2">Placeholder radio button 2</string>
   <string name="placeholder_radio_button_3">Placeholder radio button 3</string>
   <string name="placeholder_radio_button_4">Placeholder radio button 4</string>
-  <string name="next">Next</string>
+  <string name="Next">Next</string>
 </resources>
