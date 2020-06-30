@@ -4,8 +4,9 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:paddingLeft="20dp"
   android:theme="@android:style/Theme.Holo.Light"
-  tools:context=".QuizScreen">
+  tools:context=".ui.QuizOptions">
 
 
   <TextView
@@ -17,7 +18,7 @@
     android:layout_marginTop="160dp"
     android:layout_marginEnd="16dp"
     android:layout_marginRight="16dp"
-    android:gravity="center"
+    android:gravity="left"
     android:text="@string/quiz_q_txt"
     android:textSize="20sp"
     android:textStyle="bold"
@@ -68,7 +69,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
-    android:text="@string/next"
+    android:text="@string/Next"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.498"
     app:layout_constraintStart_toStartOf="parent"

@@ -6,7 +6,7 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:theme="@android:style/Theme.Holo.Light"
-  tools:context=".ImageQuizScreen">
+  tools:context=".ui.ImageQuiz">
 
   <ImageView
     android:id="@+id/imgQuiz"
