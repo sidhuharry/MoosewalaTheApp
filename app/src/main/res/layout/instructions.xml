@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/instruction_screen_layout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#FFEB3B">
+
+  <TextView
+    android:id="@+id/instructions_main"
+    android:layout_width="wrap_content"
+    android:layout_height="180sp"
+    android:layout_marginStart="-10sp"
+    android:layout_marginEnd="-10sp"
+    android:background="#3F51B5"
+    android:gravity="center_horizontal|center_vertical"
+    android:rotation="358"
+    android:text="@string/quiz_instructions"
+    android:textAlignment="center"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.3" />
+  <Button
+    android:id="@+id/instructions_ok_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F44336"
+    android:minWidth="130sp"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    android:rotation="358"
+    android:text="@string/start"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/instructions_main"
+    app:layout_constraintVertical_bias="0.229" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ਫੈਨਸ ਮੂਸੇਵਾਲੇ ਦੇ</string>
+  <string name="quiz_img_desc">ਸਵਾਲ</string>
+  <string name="result_img_desc">ਤੁਹਾਡਾ ਨਤੀਜਾ</string>
+  <string name="result_str">ਤੁਸੀਂ  </string>
+  <string name="Next">Next</string>
+  <string name="the">The</string>
+  <string name="pbFans">ਮੂਸੇਵਾਲਾ ਫੈਨਸ</string>
+  <string name="choose_language_txt">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+  <string name="pa_btn_txt">ਪੰਜਾਬੀ</string>
+  <string name="en_btn_txt">ਅੰਗ੍ਰੇਜ਼ੀ</string>
+  <string name="quiz_instructions">ਤੁਹਾਨੂੰ ਇਕ ਸਕ੍ਰੀਨ-ਸ਼ਾਟ ਵਿਖਾਇਆ ਜਾਵੇਗਾ, ਤੁਸੀਂ ਇਹ ਦੱਸਣਾ ਹੈ ਕੇ ਇਹ ਕਿਸ ਗਾਣੇ ਵਿੱਚੋ ਲਿਆ ਗਿਆ ਹੈ|</string>
+  <string name="start">ਆਹੋ, ਸਮਝ ਆ ਗਈ|</string>
+  <string name="quiz_q_txt">ਤੁਸੀਂ ਜੋ ਹੁਣੇ ਸਕ੍ਰੀਨਸ਼ਾਟ ਵੇਖਿਆ, ਇਹ ਕਿਸ ਗਾਣੇ ਤੋਂ ਲਿਆ ਗਿਆ ਸੀ?</string>
+  <string name="forget_abt_it">ਭੁੱਲ ਜਾਉ ਇਹ ਦਿਨ ਕਦੇ ਨੀ ਆਉਣਾ</string>
+  <string name="same_beef">ਸੇਮ ਬੀਫ</string>
+  <string name="so_high">ਉੱਚੀਆਂ ਨੇ ਗੱਲਾਂ ਤੇਰੇ ਯਾਰ ਦੀਆਂ</string>
+  <string name="filler_option_1">ਲੀਜੈਂਡ</string>
+  <string name="filler_option_2">ਡੇਵਿਲਾ ਦੇ ਨਾਲ ਨਾ ਤੂੰ ਖੇਡ ਨਖਰੋ</string>
+  <string name="filler_option_3">ਜਸਟ ਲਿਸਨ</string>
+  <string name="filler_option_4">ਟੋਚਣ</string>
+  <string name="filler_option_5">ਬੰਬੀਹਾ ਬੋਲੇ</string>
+  <string name="filler_option_6">ਉਲਡ ਸਕੂਲ</string>
+  <string name="score">ਤੁਹਾਡਾ ਸਕੋਰ %d/5 ਹੈ</string>
+  <string name="medal">ਅਤੇ ਤੁਹਾਡੀ ਉਪਾਧੀ ਹੈ</string>
+  <string name="medal_5">ਲੀਜੈਂਡ</string>
+  <string name="medal_4">ਬੰਦੂਕ ਗਰੂਪ ਦੇ ਮੈਂਬਰ</string>
+  <string name="medal_3">ਬੱਬੂ ਮਾਨ  ਦੇ ਫੈਨ</string>
+  <string name="medal_2">ਬਿਗ ਬਰਡ ਦੇ ਚਮਚੇ</string>
+  <string name="medal_1">ਕਰਨ ਔਜਲਾ ਫੈਨ</string>
+  <string name="medal_0">ਲੀਰ ਕਿਸੇ ਥਾਂ ਦੀ| ਦਫ਼ਾ  ਹੋ ਚਵਲੇ|</string>
+</resources>

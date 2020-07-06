@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/language_sel_layout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#FFEB3B"
+  tools:context="com.sidhuharry.moosewalatheapp.ui.LanguageSelection">
+
+  <TextView
+    android:id="@+id/languageSelTxt"
+    android:layout_width="0dp"
+    android:layout_height="50sp"
+    android:layout_marginStart="-10sp"
+    android:layout_marginTop="184dp"
+    android:layout_marginEnd="-10sp"
+    android:background="#3F51B5"
+    android:gravity="center_horizontal|center_vertical"
+    android:rotation="358"
+    android:text="@string/choose_language_txt"
+
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+  <Button
+    android:id="@+id/pa_btn"
+    android:layout_width="130sp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:background="#FF5722"
+    android:rotation="358"
+    android:text="@string/pa_btn_txt"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/languageSelTxt" />
+  <Button
+    android:id="@+id/en_btn"
+    android:layout_width="130sp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:background="#FF5722"
+    android:rotation="358"
+    android:text="@string/en_btn_txt"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/pa_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,28 +3,45 @@
   xmlns:tools="http://schemas.android.com/tools"
   package="com.sidhuharry.moosewalatheapp">
 
+  <uses-sdk></uses-sdk>
+
   <application
-    android:allowBackup="true"
     android:name=".TheApplication"
+    android:allowBackup="true"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
     android:supportsRtl="true"
     android:theme="@style/AppTheme"
     tools:ignore="GoogleAppIndexingWarning">
-    <activity android:name=".ui.QuizOptions" />
-    <activity android:name=".ui.Result" />
-    <activity android:name=".ui.ImageQuiz" />
-    <activity android:name=".ui.Instructions">
-    </activity>
-
+    <activity
+      android:name=".ui.LanguageSelection"
+      android:configChanges="locale"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".ui.QuizOptions"
+      android:configChanges="locale"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".ui.Result"
+      android:configChanges="locale"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".ui.ImageQuiz"
+      android:configChanges="locale"
+      android:screenOrientation="portrait" />
+    <activity
+      android:name=".ui.Instructions"
+      android:configChanges="locale"
+      android:screenOrientation="portrait" />
     <activity
       android:name=".ui.Splash"
-      android:configChanges="orientation|screenSize"
+      android:configChanges="locale"
+      android:icon="@drawable/moosewala_icon"
       android:label="@string/app_name"
       android:launchMode="singleTop"
+      android:roundIcon="@drawable/moosewala_icon"
       android:screenOrientation="portrait"
-      android:roundIcon="@drawable/moosewala_round"
-      android:theme="@style/AppTheme">
+      android:theme="@style/Splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
